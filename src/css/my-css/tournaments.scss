@@ -1,0 +1,296 @@
+.main__tournamentItem {
+  background: #ffffff;
+  border-radius: 7rem;
+  width: calc(100% - 20rem);
+  padding: 34rem 30rem 66rem 40rem;
+  margin: 0 10rem;
+  position: relative;
+  margin-bottom: 28rem;
+  @include sll(flex-direction, column);
+  @include xs(padding, 20rem);
+}
+
+.main__tournamentItemButtonsInner,
+.main__tournamentItem {
+  flex-wrap: nowrap;
+}
+
+.main__tournamentItemButtonsInner {
+  @include szz(flex-wrap, wrap);
+  @include szz(flex-direction, column);
+  @include szz(align-items, flex-end);
+}
+
+.main__tournamentItemButtonsTime {
+  min-width: 190rem;
+  @include szz(margin-right, 0);
+  @include szz(margin-bottom, 10rem);
+}
+
+.main__tournamentItemButtonsMoney {
+  @include md(width, 133rem);
+}
+
+.main__tournamentItemButtons {
+  position: relative;
+  z-index: 11;
+  @include xs(margin-top, 28rem);
+}
+
+.main__tournamentItemMoreTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 6rem;
+}
+
+.main__tournamentItemMoreP {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.35);
+  max-width: 309rem;
+  @include xs(max-width, 269rem);
+  margin-bottom: 20rem;
+}
+
+.main__tournamentItemMoreButton button {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #040417;
+  border: 1px solid #040417;
+  box-sizing: border-box;
+  border-radius: 5rem;
+  background: transparent;
+  padding: 12rem 30rem;
+  transition: 0.4s ease-in-out;
+}
+
+.main__tournamentItemMoreButton button:hover {
+  background: #178b53;
+  color: #fff;
+  border: 1px solid #178b53;
+}
+
+.main__tournamentItemButtonsTimeNums {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main__tournamentItemButtonsTimeText {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main__tournamentItemButtonsMoneySum {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main__tournamentItemButtonsMoneyText {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main__tournamentItemButtonsTime,
+.main__tournamentItemButtonsMoney {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 7rem;
+  padding: 9rem 35rem 9rem 15rem;
+}
+
+.main__tournamentItemButtonsTime {
+  margin-right: 15rem;
+}
+
+.main__tournamentItemButtonsTimeNums,
+.main__tournamentItemButtonsMoneySum {
+  margin-bottom: 4rem;
+}
+
+.main__tournamentItemButtonsPurple {
+  position: absolute;
+  right: 47%;
+  top: 0rem;
+  @include sk(right, 47%);
+  @include md(right, 34%);
+  @include sll(right, 0);
+  @include sll(height, 100%);
+  @include sll(right, 23%);
+  @include xs(right, 8%);
+}
+
+.main__tournamentItemButtonsPurple img {
+  @include sll(height, 100%);
+}
+
+.main__tournamentItemMore {
+  z-index: 11;
+  @include sll(margin-bottom, 90rem);
+}
+
+.main__tournamentItem::after {
+  content: "";
+  position: absolute;
+  background: #8349f8;
+  width: 47%;
+  @include sk(width, 47%);
+  @include md(width, 34%);
+  height: 100%;
+  right: 0;
+  border-radius: 0 6rem 6rem 0;
+  top: 0;
+  @include sll(width, 23%);
+  @include xs(width, 8%);
+}
+
+.main__tournamentItemImg {
+  position: absolute;
+  z-index: 12;
+  max-width: 267rem;
+  width: 100%;
+  left: 45%;
+  height: 100%;
+  @include sll(left, 20%);
+  @include sll(bottom, 0);
+  @include sll(height, 50%);
+}
+
+.tournLayer1 {
+  position: absolute;
+  z-index: 14;
+  left: -42%;
+  top: 10%;
+}
+.tournLayer2 {
+  position: absolute;
+  z-index: 14;
+  left: -10%;
+  top: -10%;
+}
+.tournLayer3 {
+  position: absolute;
+  z-index: 14;
+  left: -20%;
+  top: -13%;
+}
+.tournLayer4 {
+  position: absolute;
+  z-index: 14;
+  top: 33%;
+  left: 28%;
+  animation: rot-mer-3 11.88s infinite linear;
+  @include md(animation, none);
+}
+
+.tournLayer5 {
+  position: absolute;
+  z-index: 14;
+  top: 53%;
+  left: -58%;
+  animation: rot-mer-3 11.88s infinite linear;
+  @include sll(display, none);
+  @include md(animation, none);
+}
+
+.tournLayer6 {
+  position: absolute;
+  z-index: 15;
+  top: 12%;
+  left: -12%;
+  animation: rot-mer-3 3.88s infinite linear;
+  @include md(animation, none);
+}
+
+.tournLayer7 {
+  position: absolute;
+  z-index: 14;
+  top: -13%;
+  left: -48%;
+  animation: rot-mer-4 11.88s infinite linear;
+  @include md(animation, none);
+}
+
+.tournLayer8 {
+  position: absolute;
+  z-index: 14;
+  top: -3%;
+  left: -13%;
+  transform: rotate(310deg);
+}
+
+.tournLayer9 {
+  position: absolute;
+  z-index: 13;
+  top: -9%;
+  left: -19%;
+  transform: rotate(-70deg);
+}
+
+@keyframes rot-mer-3 {
+  from {
+    transform: rotate(0deg) translatey(-3px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translatey(-3px) rotate(-360deg);
+  }
+}
+
+.tournLayer1 {
+  animation: rot-mer-3 11.88s infinite linear;
+  @include md(animation, none);
+}
+
+@keyframes rot-mer-4 {
+  from {
+    transform: rotate(360deg) translatey(-3px) rotate(-360deg);
+  }
+  to {
+    transform: rotate(0deg) translatey(-3px) rotate(0deg);
+  }
+}
+
+.tournLayer2 {
+  animation: rot-mer-4 11.88s infinite linear;
+  @include md(animation, none);
+}
+
+.tournLayer3 {
+  animation: rot-mer-3 11.88s infinite linear;
+  @include md(animation, none);
+}
+
+.main__tournamentItemImg {
+  @include xs(display, none);
+}

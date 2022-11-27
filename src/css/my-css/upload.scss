@@ -1,0 +1,39 @@
+#pf_foto {
+  background-image: url("../img/person.svg");
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border: 1.5px solid #e0e0e0;
+  margin: 0 auto;
+  border-radius: 100px;
+  background-position: center;
+}
+
+#uploadButton,
+#deleteButton {
+  width: 82rem;
+  height: 25rem;
+  background: #ffffff;
+  border-radius: 100rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  color: #595959;
+  border: none;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+#uploadButton:hover,
+#deleteButton:hover {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #fff;
+}
+
+.main__profileRightTextButtonLeft {
+  margin-right: 10rem;
+}

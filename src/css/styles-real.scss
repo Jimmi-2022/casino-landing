@@ -1,0 +1,7 @@
+@import "project.scss";
+
+@include reset();
+
+.wrapper {
+  @include wrapper();
+}

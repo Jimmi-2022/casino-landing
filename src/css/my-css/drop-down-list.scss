@@ -1,0 +1,170 @@
+.header__innerCabinetSum {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.header__innerCabinetMenu {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(40px);
+  border-radius: 10rem;
+  // padding: 10rem 10rem 19rem 19rem;
+}
+
+.header__innerCabinetMenu {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.header__innerCabinet {
+  position: relative;
+}
+
+.header__innerCabinetMenuBalanceText {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17rem;
+  line-height: 118%;
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: 10rem;
+}
+
+.header__innerCabinetMenuCountTextNum {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.header__innerCabinetMenuCountTextP {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  opacity: 0.3;
+}
+
+.header__innerCabinetMenuCountText {
+  margin-left: 15rem;
+}
+
+.header__innerCabinet.mw229 {
+  max-width: 229rem;
+}
+
+.header__innerCabinetImg.ml15 {
+  margin-left: 15rem;
+}
+
+.header__innerCabinetMenuCountTextUlText {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.header__innerCabinetMenu.w286 {
+  width: 286rem;
+}
+
+.header__innerCabinetMenuCountTextUl li:first-child {
+  margin-top: 15rem;
+}
+.header__innerCabinetMenuCountTextUl li {
+  margin-top: 3rem;
+}
+.header__innerCabinetMenuCountTextUl li {
+  padding: 11rem 19rem;
+}
+
+.header__innerCabinetMenuCountTextUl li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+// .header__innerCabinetMenuCountTextUl li:last-child {
+//   background: none;
+// }
+
+.header__innerCabinetMenuCountTextUlImg {
+  margin-right: 14rem;
+}
+
+.header__innerCabinetMenuDiv {
+  margin-bottom: 10rem;
+}
+
+.header__innerCabinetMenuCountTextUl {
+  margin-top: 18rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+
+.header__innerCabinetMenuCount {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 17rem;
+}
+
+.header__innerCabinetMenuCountTextUl li:last-child {
+  margin-top: 19rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 15rem;
+}
+
+.header__innerCabinetMenuCountTextUl
+  li:last-child
+  .header__innerCabinetMenuCountTextUlText {
+  color: #f46865;
+}
+
+.header__innerCabinetMenuDiv {
+  margin: 10rem 10rem 10rem 25rem;
+}
+
+.header__innerCabinetMenuAvatar {
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 50%;
+}
+
+.header__innerCabinetMenuCountItem {
+  margin: 0 10rem 0 19rem;
+}
+
+.header__innerCabinetMenu.dn {
+  display: none;
+}
+
+.header__innerCabinetMenu {
+  display: block;
+}
+
+.header__innerCabinetMenuCountTextUlSumm {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 5rem;
+  padding: 5rem 10rem;
+  margin-top: -5rem;
+  margin-bottom: -5rem;
+}

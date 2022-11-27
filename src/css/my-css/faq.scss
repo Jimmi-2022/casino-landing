@@ -1,0 +1,138 @@
+.main__conditionTabNum {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21rem;
+  line-height: 30rem;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: 20rem;
+  flex: 0 0 auto;
+  @include sm(position, absolute);
+  @include sm(top, 45%);
+  @include xs(position, relative);
+  @include xs(margin-left, 0);
+}
+
+.main__conditionTextCenter {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21rem;
+  line-height: 30rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  flex: 1 1 auto;
+  margin-left: 44rem;
+  @include sm(margin-left, 87rem);
+  @include xs(margin-left, 0);
+}
+
+.main__conditionTab {
+  padding: 20rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0 10rem;
+}
+
+.main__conditionPlus {
+  margin-right: 10rem;
+  @include sm(display, none);
+}
+
+#descwrapper {
+  @include sm(display, block);
+}
+
+.main__conditionTabTab {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  opacity: 0.4;
+  max-width: 650rem;
+  margin-top: 5rem;
+  margin-left: 87rem;
+  @include xs(margin-left, 0);
+}
+
+.main__conditionPlus:hover img:first-child {
+  display: none;
+}
+
+.main__conditionPlus:hover img:nth-child(2) {
+  display: block;
+}
+
+.main__conditionPlus img:first-child {
+  display: block;
+}
+
+.main__conditionPlus img:nth-child(2) {
+  display: none;
+}
+
+.main__conditionMenu.mt50 {
+  margin-top: 50rem;
+}
+
+///Tab
+.section-title {
+  padding: 10px 7rem;
+}
+.section-title h1 {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.63rem;
+  line-height: 26px;
+  color: #0a7a7f;
+}
+.tab-container {
+  padding: 20px 7rem;
+}
+
+/* Tab Accordian */
+
+.tab-accordian {
+  width: 100%;
+  background: transparent;
+  overflow: hidden;
+  position: relative;
+}
+
+.titleWrapper {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: background-color 0.8s linear;
+}
+
+.desWrapper {
+  max-height: 500px;
+  display: none;
+  transition: max-height 1s ease-in;
+}
+
+.tab-container {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.acc-close {
+  display: none;
+}
+
+.active .acc-close {
+  display: block;
+}
+
+.active .acc-open {
+  display: none !important;
+}
+
+.active .acc-open-hover {
+  display: none !important;
+}

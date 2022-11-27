@@ -1,0 +1,405 @@
+//Popup
+.open_popup,
+.open_popup-1 {
+  background: tomato;
+  border: none;
+  padding: 5px 15px;
+  color: #fff;
+}
+.popup_body,
+.popup_body-1 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  -ms-transition: 300ms;
+  transition: 300ms;
+  z-index: 999;
+}
+.popup_body_show {
+  display: block;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  -ms-transition: 300ms;
+  transition: 300ms;
+}
+.popup_back {
+  background: rgba(23, 25, 38, 0.7);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.popup_contain {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  max-width: 363rem;
+  margin: 150px auto 0;
+  min-height: 150px;
+  padding: 10px 20px;
+  //height
+  min-height: 505rem;
+  border-radius: 15rem;
+}
+
+.popup_containTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21rem;
+  line-height: 30rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  @include xs(max-width, 250rem);
+}
+
+.popup_containBg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 15rem 15rem 0 0;
+  overflow: hidden;
+}
+
+.popup_containBody {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 40rem;
+  height: 100%;
+  width: 100%;
+  @include xxs(padding, 23px);
+}
+
+.popup_containButtons button {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #178b53;
+  border: 1px solid #178b53;
+  border-radius: 5rem;
+  transition: 0.4s ease-in-out;
+}
+.popup_containButtons button:hover {
+  background: #178b53;
+  color: #fff;
+}
+
+.popup_containBulletItem {
+  width: 8rem;
+  height: 8rem;
+  background: #ffffff;
+  opacity: 0.35;
+  border-radius: 50%;
+}
+.popup_containBullet {
+  margin-bottom: 20rem;
+}
+.popup_containBullet .popup_containBulletItem.active {
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid #ffffff;
+}
+.popup_containBullet .popup_containBulletItem:first-child {
+  margin-right: 11rem;
+}
+
+.popup_containPassportItemText {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #171926;
+  max-width: 163rem;
+  @include xxs(font-size, 15rem);
+  @include xxs(max-width, 143rem);
+}
+.popup_containPassportItemText.active {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #171926;
+  opacity: 0.35;
+}
+
+.popup_containPassportItem.loaded {
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  padding: 13rem 27rem 13rem 13rem;
+}
+
+.popup_containPassportItem {
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.13);
+  border-radius: 7px;
+  padding: 13rem 27rem 13rem 13rem;
+}
+
+.popup_containPassport {
+  margin-top: auto;
+  width: 100%;
+}
+
+.popup_containPassportItem.mt {
+  margin-top: 10rem;
+}
+
+.display-1.dn {
+  display: none;
+}
+
+.display-2.dn {
+  display: none;
+}
+
+.display-3.dn {
+  display: none;
+}
+
+.display-4.dn {
+  display: none;
+}
+
+.display-5.dn {
+  display: none;
+}
+
+.display-6.dn {
+  display: none;
+}
+
+.popup_containPassportItem {
+  border: 1px solid transparent;
+}
+
+.display-2 .popup_containPassportItem:hover {
+  border: 1px solid #8349f8;
+  cursor: pointer;
+}
+
+.display-1 .popup_containPassportItem:hover {
+  border: 1px solid #f46865;
+  cursor: pointer;
+}
+
+.display-3 .popup_containPassportItem.notLoaded:hover {
+  border: 1px solid #f46865;
+  cursor: pointer;
+}
+
+.display-3 .popup_containPassportItem:hover {
+  border: 1px solid #8349f8;
+  cursor: pointer;
+}
+
+.display-4 .popup_containPassportItem:hover {
+  border: 1px solid #f46865;
+  cursor: pointer;
+}
+.popup_containPassportItem.notLoaded .popup_containPassportItemText {
+  color: #f46865;
+}
+
+.popup_containBg img:first-child {
+  display: block;
+}
+.popup_containBg img:nth-child(2) {
+  display: none;
+}
+.popup_containBg img:nth-child(3) {
+  display: none;
+}
+
+.popup_containBg.active-2 img:first-child {
+  display: none;
+}
+.popup_containBg.active-2 img:nth-child(2) {
+  display: block;
+}
+.popup_containBg.active-2 img:nth-child(3) {
+  display: none;
+}
+.popup_containBg.active-3 img:nth-child(3) {
+  display: block;
+  border-radius: 15rem;
+}
+.popup_containBg.active-3 img:nth-child(2) {
+  display: none;
+}
+.popup_containBg.active-3 img:nth-child(1) {
+  display: none;
+}
+
+.popup_containPassportItem.loaded .popup_containPassportItemText {
+  color: #171926;
+  opacity: 0.35;
+}
+
+.popup_containTitle.mw {
+  max-width: 254rem;
+}
+
+.popup_containLoadingText {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #178b53;
+  max-width: 147rem;
+  margin-top: 14rem;
+  margin-bottom: 52rem;
+}
+
+.popup_containLoading {
+  margin-top: auto;
+}
+
+.popup_containDocument {
+  position: absolute;
+  background: rgba(23, 25, 38, 0.3);
+  border-radius: 15px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.popup_containDocumentBg {
+  background: #ffffff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.13);
+  border-radius: 7rem;
+  // padding: 50rem 70rem 50rem 70rem;
+  max-width: 266rem;
+  position: relative;
+  margin: auto;
+  margin-top: 50rem;
+  height: auto;
+}
+
+.popup_containDocumentBgClose {
+  position: absolute;
+  right: 21rem;
+  top: 21rem;
+  cursor: pointer;
+}
+
+.popup_containDocumentBgText {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #171926;
+  margin-top: 40rem;
+  margin-bottom: 46rem;
+  margin-left: 50rem;
+  margin-right: 50rem;
+}
+
+.popup_containDocumentBgImg {
+  margin-top: 50rem;
+}
+
+.popup_containDocument.dn {
+  display: none;
+}
+
+.main__profileRight {
+  @include xxxs(flex-direction, column);
+  @media screen and (max-width: 360px) {
+    @include row-flex();
+  }
+  @include xxxs(margin-left, 0);
+  @include xxxs(margin-right, 0);
+  @include xxxs(align-items, flex-start);
+}
+
+.main__profileRightImg {
+  @include xxxs(margin-bottom, 20rem);
+  @include xxxs(order, 1);
+}
+.main__profileRightText {
+  @include xxxs(order, 2);
+}
+
+.main__confirm {
+  position: relative;
+}
+
+.main__confirmImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.main__confirmImgBg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 0 0 7rem 0;
+}
+
+.main__confirmImgBg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.main__confirmImgPic img {
+  @include szz(padding-left, 20%);
+  @include sm(padding-left, 0);
+}
+
+.main__confirm {
+  @include sm(padding-bottom, 350rem!important);
+  @include xxs(padding-bottom, 280rem!important);
+  @include xxxs(padding-bottom, 250rem!important);
+}
+
+.main__confirmButton {
+  z-index: 2;
+  position: relative;
+}
+
+//// verify parallax
+
+.layer1-new {
+  top: 30px;
+  left: 0;
+  position: relative;
+  @include mz(top, 20px);
+  @include sz(top, 30px);
+}
+
+.main__confirm {
+  overflow: hidden;
+}
+
+///
+
+.layer1-new {
+  animation: rot-mer 13.88s infinite linear;
+}

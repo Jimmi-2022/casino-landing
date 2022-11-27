@@ -1,0 +1,706 @@
+.main__bannerBodyText {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: #d3d3d3;
+  max-width: 305rem;
+}
+
+.main__bannerBody {
+  position: relative;
+}
+
+.main__bannerBodyTitle span {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28rem;
+  line-height: 118%;
+  @include ms(font-size, 23rem);
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main__bannerBodyTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28rem;
+  @include ms(font-size, 23rem);
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 10rem;
+  margin-top: 40rem;
+}
+
+///fix banner
+.main__bannerBody {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: 265rem;
+  @include smm(height, 509rem);
+  display: block;
+  border-radius: 7rem;
+  overflow: visible;
+}
+
+.main__bannerBody img.slider {
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 10rem);
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: calc(100% - 20rem);
+  height: 244rem;
+  @include smm(height, 488rem);
+  object-fit: cover;
+  border-radius: 7rem;
+  margin: 0 10rem;
+}
+
+.main__bannerBodyAbsolute {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+  width: calc(100% - 20rem);
+  padding-right: 0;
+  margin: 0;
+}
+
+.main__bannerBodyAbsoluteLeft {
+  padding-left: 40rem;
+  @include xxs(padding-top, 60rem);
+}
+
+.main__bannerBodyButton {
+  margin-top: 55rem;
+}
+
+.main__bannerBodyButton button {
+  width: 119rem;
+  height: 42rem;
+  background: #ffffff;
+  border-radius: 5rem;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #171926;
+  border: none;
+}
+
+.main__bannerBodyButton button:hover {
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+}
+
+.main__JackpotTextTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main__Jackpot {
+  background: linear-gradient(137.95deg, #c06c5a 9.63%, #e25555 97.57%);
+  border-radius: 15rem;
+  margin: 40rem 10rem;
+  padding: 35rem 130rem 40rem 40rem;
+  @include sz(padding, 35rem 75rem 40rem 40rem);
+  @include mz(padding, 35rem 140rem 40rem 40rem);
+  @include sl(padding, 35rem 85rem 40rem 40rem);
+  @include smm(flex-direction, column);
+  @include smm(align-items, flex-start);
+  @include smm(padding, 34rem);
+}
+
+.main__JackpotSumm {
+  @include smm(margin-top, 98rem);
+  @include smm(margin-bottom, 98rem);
+  @include smm(margin-left, 60rem);
+  @include smm(margin-left, 0);
+  @include smm(margin-top, 40rem);
+  @include smm(margin-bottom, 20rem);
+}
+
+.main__JackpotTextP {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: #d3d3d3;
+  max-width: 308rem;
+  margin-top: 10rem;
+}
+
+.main__JackpotSumm {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  @include xxs(font-size, 30rem);
+}
+
+.main__get-money {
+  background: linear-gradient(104.2deg, #8349f8 15.21%, #4010a0 85.04%);
+  border-radius: 7rem;
+  padding: 34rem 98rem 43rem 40rem;
+  margin: 22rem 10rem 50rem 10rem;
+  @include sz(flex-direction, column);
+  @include smm(padding, 34rem);
+}
+
+.main__get-moneyTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 300rem;
+  @include sz(margin-bottom, 28rem);
+  @include xs(font-size, 21rem);
+}
+
+.main__get-moneyTitle span {
+  font-weight: 600;
+}
+
+.main__get-moneyItemsItemSumm {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21rem;
+  line-height: 30rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main__get-moneyItemsItemImg {
+  background: #fcfcfc;
+  border-radius: 7rem;
+  width: 40rem;
+  height: 40rem;
+  margin-bottom: 10rem;
+}
+
+.main__get-moneyItemsItemText {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  opacity: 0.7;
+  max-width: 210rem;
+}
+
+.main__get-moneyItemsItem {
+  @include size(10);
+  @include size-sz(9.5);
+  @include xs(width, 100%);
+  @include xs(margin-bottom, 50rem);
+}
+
+.main__get-moneyItemsItem:nth-child(1),
+.main__get-moneyItemsItem:nth-child(2) {
+  margin-bottom: 50rem;
+}
+
+.main__get-moneyItems {
+  @include size(10.5);
+  @include sz(width, 100%);
+}
+
+.main__brandTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21rem;
+  line-height: 30rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: 12rem;
+  flex-wrap: nowrap;
+  // .smm({margin-bottom: 10rem;});
+}
+.main__brandTitleImg {
+  @media screen and (max-width: 738px) {
+    @include row-flex();
+  }
+  @include smm(margin-left, 0);
+  @include smm(margin-right, 0);
+  @include smm(align-items, center);
+}
+.main__brandTitle span {
+  font-weight: 500;
+  color: #f46865;
+}
+
+.main__brand {
+  margin: 0 10rem;
+}
+
+.main__brandItems {
+  @include xs(margin-top, 20rem);
+}
+
+.main__brandItemsItem {
+  height: 60rem;
+  background: #fcfcfc;
+  border-radius: 7rem;
+  width: calc(16.666% - 28rem);
+  @include xsw(width, calc(33.333% - 28rem));
+  @include xsw(margin-bottom, 28rem);
+  @include xss(width, calc(50% - 18rem));
+  @include xss(margin-bottom, 28rem);
+}
+
+.main__brandItems {
+  margin-bottom: 40rem;
+  margin-top: 5rem;
+}
+
+.main__actions {
+  margin-bottom: 50rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.main__actionsTitleTextP {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21rem;
+  line-height: 30rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  @include xs(font-size, 17rem);
+}
+
+.main__actionsTitleTextP {
+  margin-left: 12rem;
+}
+
+.main__actionsTitleButton {
+  background: #178b53;
+  border-radius: 5rem;
+  padding: 6rem 7rem 6rem 12rem;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12rem;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.main__actionsTitleButtonText {
+  margin-right: 10rem;
+}
+
+.main__actionsItemsItemButton button {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 100rem;
+  width: 91rem;
+  height: 25rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  background: transparent;
+  color: #ffffff;
+  margin-left: 10rem;
+}
+
+.main__actionsItemsItemButton {
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+.main__actionsItemsItem {
+  position: relative;
+}
+
+.main__actionsItemsAbsolute {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 13rem 10rem 10rem 16rem;
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main__actionsItemsItemTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main__actionsItemsItem:last-child {
+  @include smm(display, none);
+  @include xss(display, block);
+}
+
+.main__gameEnterButtonsItem button,
+.main__bannerBodyButton button {
+  transition: 0.4s ease-in-out;
+}
+
+.main__actionsItems {
+  margin-top: 15rem;
+}
+
+.main__actionsItemsItemTitle {
+  max-width: 209rem;
+}
+
+.main__actionsItemsItem {
+  padding: 13rem 10rem 10rem 16rem;
+}
+
+.main__actionsItemsItem {
+  position: relative;
+  max-width: 100%;
+  height: 150px;
+  display: block;
+  border-radius: 7rem;
+}
+
+.main__actionsItemsItem .img-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 7rem;
+  z-index: -1;
+}
+
+.main__actionsItemsItemButton button:hover {
+  background: #ffffff;
+  color: #171926;
+}
+
+.main__actionsItemsItemButton button {
+  transition: 0.4s ease-in-out;
+}
+
+.main__actionsItemsItemButton button:nth-child(1) {
+  margin-left: -10rem;
+}
+
+.main__new-games {
+  margin-top: 50rem;
+  margin: 50rem 10rem 23rem 10rem;
+}
+
+.main__new-gamesItems {
+  margin-top: 15rem;
+}
+
+.main__new-gamesItemsItem {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  height: 150px;
+  display: block;
+  border-radius: 7rem;
+}
+
+.main__new-gamesItemsItem .game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 7rem;
+  z-index: -1;
+}
+
+.main__new-gamesItemsItemInnerStar .star-1 {
+  width: 18rem;
+  height: 18rem;
+}
+
+.main__new-gamesItemsItemInnerStar {
+  width: 18rem;
+  height: 18rem;
+}
+
+.main__new-gamesItemsItemInnerStar:hover img:nth-child(1) {
+  display: none;
+  cursor: pointer;
+}
+
+.main__new-gamesItemsItemInnerStar:hover img:nth-child(2) {
+  display: block;
+  cursor: pointer;
+}
+
+.main__new-gamesItemsItemInnerStar img:nth-child(1) {
+  display: block;
+}
+
+.main__new-gamesItemsItemInnerStar img:nth-child(2) {
+  display: none;
+}
+
+.main__new-gamesItemsItemInnerName {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main__new-gamesItemsItemInner {
+  padding: 12rem 10rem;
+  height: 100%;
+}
+
+.main__new-gamesItemsItemInnerBottomItem button {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 100rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background: transparent;
+  margin-left: 10rem;
+  transition: 0.4s ease-in-out;
+  height: 20rem;
+  width: 60rem;
+  @include sz(width, 55rem);
+  @include xs(width, 45rem);
+  @include zs(width, 55rem);
+}
+
+.main__new-gamesItemsItemInnerBottomItem button:hover {
+  background: #fff;
+  color: #404040;
+}
+
+.main__new-gamesItemsItemInnerBottom {
+  display: none;
+}
+
+.main__new-gamesItemsItem:hover .main__new-gamesItemsItemInnerBottom {
+  display: flex;
+}
+
+.main__new-gamesItemsItem .main__new-gamesItemsItemInnerBottom {
+  @include sm(display, flex);
+}
+
+.row.mt20.jcc {
+  position: relative;
+  margin: -17rem 11rem 0 11rem;
+}
+
+.main__new-games.mb {
+  margin-bottom: 50rem;
+}
+
+.main__JackpotImg {
+  position: absolute;
+  z-index: 0;
+  right: 55rem;
+  @include sz(right, 0rem);
+  @include mz(right, 55rem);
+  @include sl(right, 0rem);
+  @include smm(right, auto);
+  @include smm(left, 0);
+  @include smm(top, 150rem);
+  @include smm(display, none);
+  z-index: 0;
+}
+
+.main__JackpotSumm {
+  z-index: 2;
+}
+
+.main__Jackpot {
+  position: relative;
+}
+
+.main__JackpotImg img {
+  height: 220rem;
+  @include xxs(height, auto);
+}
+
+.main__bannerBodyImg {
+  position: relative;
+  @include size(11);
+  @include size-sk(12);
+  @include size-mz(11);
+  @include size-sm(10);
+  @include smm(width, 100%);
+  @media screen and (max-width: 738px) {
+    @include row-flex();
+  }
+  @include smm(justify-content, flex-end);
+  @include smm(margin-left, 0);
+  @include smm(margin-right, 0);
+  height: 238rem;
+  overflow: visible;
+}
+
+.main__bannerBodyAbsoluteLeft {
+  height: 238rem;
+}
+
+.main__bannerBodyAbsolute {
+  @include smm(flex-direction, column);
+}
+
+.main__bannerBodyAbsolute {
+  overflow: hidden;
+}
+
+@keyframes rot-mer {
+  from {
+    transform: rotate(0deg) translatey(-14px) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translatey(-14px) rotate(-360deg);
+  }
+}
+
+.layer2 {
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  animation: rot-mer 5.88s infinite linear;
+}
+.layer3 {
+  top: 180px;
+  left: 10px;
+  position: absolute;
+  animation: rot-mer 5.88s infinite linear;
+}
+.layer4 {
+  top: 170px;
+  right: 150px;
+  position: absolute;
+  animation: rot-mer 6.88s infinite linear;
+}
+
+.layer5 {
+  bottom: -20px;
+  @include sl(right, -20rem);
+  @include sm(bottom, 0);
+  @include sm(right, -20rem);
+  @include smm(bottom, -20rem);
+  position: absolute;
+  animation: rot-mer 11.88s infinite linear;
+}
+
+////
+.layer7 {
+  top: 170px;
+  right: -320px;
+  position: relative;
+}
+.layer8 {
+  top: 120px;
+  right: 20px;
+  position: relative;
+}
+.layer9 {
+  top: -10px;
+  right: -190px;
+  position: relative;
+}
+
+.layer7 {
+  animation: rot-mer 11.88s infinite linear;
+}
+
+.layer8 {
+  animation: rot-mer 11.88s infinite linear;
+}
+
+.layer9 {
+  animation: rot-mer 11.88s infinite linear;
+}
+
+.layer20 {
+  animation: rot-mer 26.88s infinite linear;
+}
+
+.layer21 {
+  animation: rot-mer 26.88s infinite linear;
+}
+.layer21 {
+  bottom: -8rem;
+  top: auto;
+  position: absolute;
+}
+
+.layer20 {
+  bottom: -8rem;
+  top: auto;
+  position: absolute;
+}
+
+.layer {
+  @include md(animation, none);
+}
+
+.main__bannerBodyImg img:nth-child(2) {
+  @include sm(display, none);
+}
+.main__bannerBodyImg img:nth-child(3) {
+  @include sm(display, none);
+}
+.main__bannerBodyImg img:nth-child(4) {
+  @include sm(display, none);
+}

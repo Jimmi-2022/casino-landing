@@ -1,0 +1,438 @@
+.popup_containSumTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #178b53;
+}
+
+.popup_containSumTitle input {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #178b53;
+  border: none;
+  max-width: 200rem;
+  outline: none;
+  background: transparent;
+  &[type="text"] {
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28rem;
+    line-height: 118%;
+    letter-spacing: 0.02em;
+    color: #178b53;
+  }
+  &::-webkit-input-placeholder {
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28rem;
+    line-height: 118%;
+    letter-spacing: 0.02em;
+    color: #178b53;
+  }
+  &::-moz-placeholder {
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28rem;
+    line-height: 118%;
+    letter-spacing: 0.02em;
+    color: #178b53;
+  } /* Firefox 19+ */
+
+  &:-moz-placeholder {
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28rem;
+    line-height: 118%;
+    letter-spacing: 0.02em;
+    color: #178b53;
+  } /* Firefox 18- */
+
+  &:-ms-input-placeholder {
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28rem;
+    line-height: 118%;
+    letter-spacing: 0.02em;
+    color: #178b53;
+  }
+}
+
+.popup_containSumTitle input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.popup_containSumTitle input:focus:-moz-placeholder {
+  color: transparent;
+} /* FF 4-18 */
+.popup_containSumTitle input:focus::-moz-placeholder {
+  color: transparent;
+}
+.popup_containSumTitle input:focus:-ms-input-placeholder {
+  color: transparent;
+} /* IE 10+ */
+
+.popup_containSumButton button {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #404040;
+  border: 1px solid #404040;
+  box-sizing: border-box;
+  border-radius: 100rem;
+  width: 156rem;
+  height: 25rem;
+  background: transparent;
+}
+
+.popup_containTitle.mb {
+  margin-bottom: 40%;
+  margin-top: 1rem;
+  @include xs(margin-bottom, 30rem);
+}
+
+.popup_containSumTitle {
+  margin-bottom: 20rem;
+}
+
+.popup_containMethodsItem img:first-child {
+  display: inline-block;
+}
+.popup_containMethodsItem img:nth-child(2) {
+  display: none;
+}
+
+.popup_containMethodsItem:hover img:first-child {
+  display: none;
+}
+.popup_containMethodsItem:hover img:nth-child(2) {
+  display: inline-block;
+}
+
+.popup_containMethodsItem {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 7rem;
+  padding: 0 7rem;
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+  align-items: center;
+  width: 29.78%;
+  margin-bottom: 15rem;
+  height: 48rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.popup_containMethodsItem:last-child {
+  margin-right: auto;
+  margin-left: 15rem;
+}
+
+.popup_containMethods {
+  margin-top: 60rem;
+  margin-bottom: 35rem;
+  position: relative;
+}
+
+.popup_containButtons.little button {
+  width: 105rem;
+}
+
+.popup_containSumButton button:hover {
+  background: #8349f8;
+}
+.popup_containSumButton button {
+  transition: 0.4s ease-in-out;
+}
+.popup_containMethodsItem .popup_containMethodsItemActive {
+  display: none;
+}
+.popup_containMethodsItem.active .popup_containMethodsItemActive {
+  padding: 10rem;
+  display: block;
+  border-radius: 7rem;
+}
+
+.popup_containMethodsItemActiveItemGrey {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #171926;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+.popup_containMethodsItemActiveItemBlack {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #171926;
+  opacity: 0.7;
+}
+
+.popup_containMethodsItemActive {
+  position: absolute;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+.popup_containSum {
+  padding-bottom: 30rem;
+}
+
+.popup_containMethods.mt {
+  border-top: 1px solid rgba(23, 25, 38, 0.1);
+  padding-top: 30rem;
+  margin-top: 0;
+}
+
+.main__brandTitleImg img {
+  @include xs(width, 40rem);
+}
+.main__brandTitleImg {
+  @include xs(width, 40rem);
+  @include xs(margin-right, 20rem);
+}
+
+.main__brandTitle {
+  @include xs(margin-left, 0);
+  @include xs(justify-content, space-between);
+  @include xxs(font-size, 17rem);
+  @include xxs(line-height, 18rem);
+}
+.displayNew-3.dn {
+  display: none;
+}
+.displayNew-2.dn {
+  display: none;
+}
+.displayNew-1.dn {
+  display: none;
+}
+.popup_containMethodsItemActiveItem:first-child {
+  margin-bottom: 5rem;
+}
+
+.popup_containSumQrTextTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #171926;
+}
+
+.popup_containSumQrTextP {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #171926;
+  opacity: 0.4;
+  max-width: 150rem;
+  margin-top: 5rem;
+}
+
+.popup_containSumQrText {
+  margin-left: 16rem;
+}
+
+.popup_containSumQr {
+  background: rgba(23, 139, 83, 0.03);
+  border: 1px solid rgba(23, 139, 83, 0.5);
+  border-radius: 5rem;
+  padding: 16rem;
+}
+
+.form-group.new {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.popup_containMethodsCopy {
+  width: 100%;
+}
+
+.popup_containMethodsCopyInput {
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 7rem;
+  padding: 13rem 13rem 13rem 17rem;
+  width: 100%;
+  position: relative;
+}
+
+.popup_containMethodsCopyInputText {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: #171926;
+  opacity: 0.2;
+}
+
+.popup_containTitle.mbn {
+  margin-bottom: 45%;
+  margin-top: -3rem;
+}
+
+.popup_containSum.mbn {
+  padding-bottom: 25rem;
+}
+
+.popup_containMethods.mtn {
+  border-top: 1px solid rgba(23, 25, 38, 0.1);
+  padding-top: 25rem;
+  margin-top: 0;
+}
+
+.popup_containMethodsCopyInputDublicate {
+  position: absolute;
+  right: 13rem;
+  top: 13rem;
+  cursor: pointer;
+}
+
+.popup_containMethodsCopyInputInfo {
+  position: absolute;
+  right: 53rem;
+  top: 13rem;
+  cursor: pointer;
+}
+
+.popup_containMethodsCopyInput:after {
+  content: "";
+  position: absolute;
+  background: #e1e1e1;
+  height: calc(100% - 20rem);
+  width: 1px;
+  right: 41rem;
+  top: 10rem;
+}
+
+.popup_containBg.new.active img:first-child {
+  display: none;
+}
+.popup_containBg.new.active img:nth-child(2) {
+  display: block;
+  border-radius: 15rem;
+}
+
+.popup_contain.pay.active {
+  min-height: 505rem;
+}
+
+.popup_contain.pay {
+  min-height: 626rem;
+}
+
+.popup_containTitle.mbnn {
+  max-width: 250rem;
+}
+
+.popup_containLoadingTextNew {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #178b53;
+  margin-bottom: 122rem;
+  margin-top: 20rem;
+}
+
+.main__brand .slider.main__banner {
+  overflow: hidden;
+}
+
+.swiper-container1,
+.swiper-container4 {
+  overflow: hidden;
+}
+
+.slider.mt {
+  margin-top: 28rem;
+  margin-bottom: 50rem;
+}
+
+.popup_containBodyInputsInputBlock {
+  flex-wrap: nowrap;
+}
+
+.popup_containBodyInputsInputBlockItem.promo {
+  @include xxs(margin-right, 15rem);
+}
+
+.popup_contain-1.dn {
+  display: none;
+}
+.popup_contain-2.dn {
+  display: none;
+}
+
+.header__innerCabinetMenu {
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
+  border-radius: 10rem;
+}
+
+.header__innerBurger.pa {
+  position: fixed;
+  right: 15rem;
+  top: 30rem;
+}
+
+.header__innerCabinetPlus {
+  margin-right: 10rem;
+}
+
+.popup_contain-2 .popup_containBg {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: 506rem;
+  display: block;
+  overflow: visible;
+}
+
+.popup_contain-2 .popup_containBg img {
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 8rem);
+  transform: translate(-50%, -50%);
+  max-width: calc(100% + 25rem);
+  width: calc(100% + 25rem);
+  @include xxxs(width, calc(100% + 55rem) !important);
+  @include xxxs(max-width, calc(100% + 55rem) !important);
+  height: 526rem;
+  object-fit: cover;
+}

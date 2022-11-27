@@ -1,0 +1,140 @@
+/** @format */
+
+html {
+  font-size: 1px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  @include mz(opacity, 1!important);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.mta {
+  margin-top: auto;
+}
+
+main {
+  position: relative;
+}
+
+.row {
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.aic {
+  align-items: center;
+}
+
+.aie {
+  align-items: flex-end;
+}
+
+.ais {
+  align-items: flex-start;
+}
+
+.sb {
+  justify-content: space-between;
+}
+
+.sa {
+  justify-content: space-around;
+}
+
+.aisb {
+  align-items: stretch;
+}
+
+.fe {
+  justify-content: flex-end;
+}
+
+.fs {
+  justify-content: flex-start;
+}
+
+.cc {
+  justify-content: center;
+}
+
+.img {
+  font-size: 1px;
+}
+
+.tac {
+  text-align: center;
+}
+
+.se {
+  justify-content: space-evenly;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.ass {
+  align-self: flex-start;
+}
+
+.asc {
+  align-self: center;
+}
+
+.fnw {
+  flex-wrap: nowrap;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+input,
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+///My style
+body {
+  background: #171926;
+  background-size: cover;
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
+  z-index: -5;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s ease-in-out !important;
+}

@@ -1,0 +1,298 @@
+.main__gameEnter {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 7rem;
+  margin: -5rem 10rem 0 10rem;
+  padding: 25rem 40rem;
+  @include xs(padding, 15rem 20rem);
+}
+
+.main__gameEnterTextTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21rem;
+  line-height: 30rem;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.main__gameDisplay {
+  background: #171926;
+  border-radius: 7px;
+  width: auto;
+  min-height: 547rem;
+  margin: 10rem;
+  opacity: 1 !important;
+  @include sm(min-height, 30vh);
+}
+
+.main__gameEnterTextP {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.25);
+  max-width: 423rem;
+  margin-top: 10rem;
+}
+
+.main__gameDisplay p {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  opacity: 0.1;
+}
+
+.main__sidebarRmenuOpen {
+  background: linear-gradient(126.65deg, #20a37f -35.75%, #4579d8 81.64%);
+  border-radius: 15rem;
+  padding: 10rem;
+}
+
+.main__gameEnterButtonsItem button {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 5rem;
+  background: transparent;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding: 11rem 27rem;
+}
+
+.main__gameEnterButtonsItem button:hover {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  color: #171926;
+}
+
+.main__gameEnterButtonsItem.mr20 {
+  margin-right: 20rem;
+  @include xss(margin-right, 0);
+}
+
+.main__sidebarRmenuOpenImg {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 7px;
+  width: 40rem;
+  height: 40rem;
+}
+.main__sidebarRmenuOpenButton {
+  width: calc(43% - 5rem);
+}
+
+.main__sidebarRmenuOpenButton.little {
+  width: calc(36.8% - 5rem);
+}
+
+.main__sidebarRmenuOpenButton button {
+  width: 100%;
+  padding: 10rem 0;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 7rem;
+  border: none;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main__sidebarRmenuOpenButton button:hover {
+  background: #ffffff;
+  color: #171926;
+}
+
+.main__sidebarRmenuBalance {
+  background: linear-gradient(152.65deg, #3686d5 -26.25%, #892de4 106.4%);
+  border-radius: 15rem;
+  padding: 10rem;
+  margin-top: 20rem;
+}
+
+.main__sidebarRmenuSupport {
+  background: linear-gradient(124.88deg, #b92ce5 -30.3%, #642ee2 91.59%);
+  border-radius: 15rem;
+  padding: 10rem;
+  margin-top: 20rem;
+}
+
+.main__sidebarRmenuBalanceImg,
+.main__sidebarRmenuSupportTimeImg {
+  width: 60rem;
+  height: 60rem;
+  background: #171926;
+  border-radius: 7rem;
+}
+
+.main__sidebarRmenuBalanceText {
+  margin-left: 10rem;
+}
+
+.main__sidebarRmenuBalanceTextP {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.main__sidebarRmenuBalanceTextTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.main__sidebarRmenuSupportTimeText {
+  margin-left: 10rem;
+}
+
+.main__sidebarRmenuSupportTimeTextTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main__sidebarRmenuSupportTimeTextP {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.main__sidebarRmenuSupportTime {
+  padding-bottom: 10rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.main__sidebarRmenuSupportMessage input {
+  background: transparent;
+  border-radius: 5rem;
+  max-width: 480rem;
+  width: 100%;
+  padding: 13rem 70rem 13rem 70rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.7);
+  border: none;
+  &[type="text"] {
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17rem;
+    line-height: 118%;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  &::-webkit-input-placeholder {
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17rem;
+    line-height: 118%;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  &::-moz-placeholder {
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17rem;
+    line-height: 118%;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.7);
+  } /* Firefox 19+ */
+
+  &:-moz-placeholder {
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17rem;
+    line-height: 118%;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.7);
+  } /* Firefox 18- */
+
+  &:-ms-input-placeholder {
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17rem;
+    line-height: 118%;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+.main__sidebarRmenuSupportMessage input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.main__sidebarRmenuSupportMessage input:focus:-moz-placeholder {
+  color: transparent;
+} /* FF 4-18 */
+.main__sidebarRmenuSupportMessage input:focus::-moz-placeholder {
+  color: transparent;
+}
+.main__sidebarRmenuSupportMessage input:focus:-ms-input-placeholder {
+  color: transparent;
+} /* IE 10+ */
+
+///
+.main__gameEnterText {
+  @include mz(width, 100%);
+  @include mz(margin-bottom, 20rem);
+}
+
+.main__gameEnterText {
+  @include size-ms(8);
+}
+
+.main__gameEnterButtonsItem {
+  @include xss(width, 100%);
+}
+.main__gameEnterButtonsItem button {
+  @include xss(width, 100%);
+  @include xss(margin-bottom, 10rem);
+}
+
+.main__gameEnterButtons {
+  @include xss(width, 100%);
+}
+
+.main__sidebarAbsolute.w100,
+.main__sidebarFixed.w100 {
+  @include mz(width, 100%);
+}

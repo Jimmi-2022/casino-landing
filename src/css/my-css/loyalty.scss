@@ -1,0 +1,472 @@
+.main__loyaltyItem {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 7rem;
+  width: calc(33% - 14rem);
+  margin-bottom: 28rem;
+  @include sz(width, calc(50% - 14rem));
+  @include mz(width, calc(33% - 14rem));
+  @include md(width, calc(50% - 14rem));
+  @include xsr(width, 100%);
+  @include xsr(min-height, 461rem);
+  @include xss(width, 100%);
+  @include xss(min-height, 391rem);
+}
+
+.main__loyaltyItemTopTextTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main__loyaltyItemTopTextP {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.82);
+  opacity: 0.35;
+  margin-top: 1rem;
+}
+
+.main__loyaltyItemTopText {
+  margin-left: 12rem;
+}
+
+.main__loyaltyItemBotomItemImg {
+  width: 30rem;
+  height: 30rem;
+  background: #fcfcfc;
+  border-radius: 50%;
+  position: absolute;
+  right: 7rem;
+  top: -7rem;
+  cursor: pointer;
+}
+
+.main__loyaltyItemBotomItemText {
+  background: linear-gradient(118.57deg, #20a37f -60.53%, #4579d8 82.79%);
+  border-radius: 7rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #fcfcfc;
+  padding: 10rem 38rem 10rem 15rem;
+  margin-bottom: 20rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.main__loyaltyItemBotomItemText.mb0 {
+  margin-bottom: 0;
+}
+
+.main__loyaltyItemBotomItem {
+  position: relative;
+}
+
+.main__loyaltyItemBotom {
+  padding-bottom: 30rem;
+  margin-top: 30rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 30rem;
+}
+
+.main__loyaltyItemBotomItemText.purple {
+  background: linear-gradient(95.11deg, #b92ce5 -0.5%, #882de4 100%);
+}
+
+.main__loyaltyItemTopPlace {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main__loyalty {
+  padding: 10rem;
+}
+
+.l-1 {
+  width: 43rem;
+  height: 43rem;
+  background: rgba(23, 139, 83, 0.2);
+  border: 2px solid #178b53;
+  border-radius: 59rem;
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+  align-items: center;
+}
+.l-2 {
+  width: 43rem;
+  height: 43rem;
+  background: rgba(205, 127, 50, 0.2);
+  border: 2px solid #cd7f32;
+  border-radius: 59rem;
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+  align-items: center;
+}
+.l-3 {
+  width: 43rem;
+  height: 43rem;
+  background: rgba(199, 199, 199, 0.2);
+  border: 2px solid #c7c7c7;
+  border-radius: 59rem;
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+  align-items: center;
+}
+.l-4 {
+  width: 43rem;
+  height: 43rem;
+  background: rgba(201, 175, 39, 0.2);
+  border: 2px solid #c9af27;
+  border-radius: 59rem;
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+  align-items: center;
+}
+.l-5 {
+  width: 43rem;
+  height: 43rem;
+  background: rgba(62, 159, 255, 0.2);
+  border: 2px solid #3e9fff;
+  border-radius: 59rem;
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__loyaltyItemTop {
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  margin: 30rem 21rem 21rem 21rem;
+  padding-left: 21rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21rem;
+  line-height: 30rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  width: 100%;
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: flex-start;
+}
+
+.main__loyaltyItemTopInner {
+  max-width: 132rem;
+}
+
+.main__loyaltyItemBotomItemText span {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #fcfcfc;
+}
+
+.main__loyaltyItemBotomItemText span {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #fcfcfc;
+}
+
+.main__loyaltyItemTopBrilliant {
+  margin-right: 7rem;
+  margin-bottom: -3rem;
+}
+
+.main__bonus-shopItemsItem {
+  background: #ffffff;
+  border-radius: 7rem;
+  width: calc(25% - 14rem);
+  justify-content: center;
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+  flex-direction: column;
+  @include sz(width, calc(33.33% - 14rem));
+  @include md(width, calc(50% - 14rem));
+  @include md(margin-top, 28rem);
+  @include xsr(width, 100%);
+}
+.main__bonus-shopItemsItem:last-child {
+  @include sz(display, none);
+  @include md(display, flex);
+}
+.main__bonus-shopItems {
+  margin: 0 10rem;
+}
+
+.main__bonus-shopItemsItemSum {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28rem;
+  line-height: 118%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #178b53;
+  margin-bottom: 7rem;
+}
+
+.main__bonus-shopItemsItemP {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #171926;
+  opacity: 0.45;
+  margin-bottom: 20rem;
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+}
+
+.main__bonus-shopItemsItemPInner {
+  max-width: 120rem;
+}
+
+.main__bonus-shopItemsItemButton button {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #178b53;
+  border: 1px solid #178b53;
+  box-sizing: border-box;
+  border-radius: 5rem;
+  width: 104rem;
+  height: 42rem;
+  background: transparent;
+  margin-bottom: 37rem;
+  transition: 0.4s ease-in-out;
+}
+
+.main__bonus-shopItemsItemButton button:hover {
+  color: #fff;
+  border: 1px solid #178b53;
+  background: #178b53;
+}
+
+.main__bonus-shopItemsItemButton {
+  width: 100%;
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+}
+
+.main__bonus-shop {
+  margin-bottom: 50rem;
+}
+
+.main__loyaltyItem.shop {
+  background: #fff;
+  border-radius: 7px;
+  position: relative;
+}
+
+.main__loyaltyItem.shop img {
+  width: 100%;
+  border-radius: 7rem 7rem 0 0;
+}
+
+.main__loyaltyItemBlocksItemSum {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #178b53;
+}
+
+.main__loyaltyItemBlocksItemImg {
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 20rem;
+}
+
+.main__loyaltyItemBlocksItem {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  border-radius: 7rem;
+  width: calc(33.33% - 10rem);
+  padding: 22rem 0 18rem 0;
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__loyaltyItemAbsolute {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  flex-direction: column;
+  padding-bottom: 30rem;
+}
+
+.main__loyaltyItemBlocks {
+  padding-left: 21rem;
+  padding-right: 21rem;
+  margin-top: auto;
+}
+
+.main__loyaltyItemText {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background: linear-gradient(95.11deg, #b92ce5 -0.5%, #882de4 100%);
+  border-radius: 7rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 10rem;
+  padding: 10rem 25rem 10rem 15rem;
+  @include mk(font-size, 15rem);
+  @include xsw(font-size, 14rem);
+}
+
+///bonus
+@keyframes rot-mer-1 {
+  from {
+    transform: rotate(0deg) translatey(2px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translatey(2px) rotate(-360deg);
+  }
+}
+
+@keyframes rot-mer-2 {
+  from {
+    transform: rotate(360deg) translatey(2px) rotate(-360deg);
+  }
+  to {
+    transform: rotate(0deg) translatey(2px) rotate(0deg);
+  }
+}
+
+.loyal-1 {
+  @include md(animation, none);
+  animation: rot-mer-1 6.88s infinite linear;
+  position: absolute;
+  left: 37%;
+  top: 7%;
+  z-index: 3;
+}
+.loyal-2 {
+  @include md(animation, none);
+  animation: rot-mer-1 3.88s infinite linear;
+  position: absolute;
+  right: 10%;
+  z-index: 2;
+}
+.loyal-3 {
+  @include md(animation, none);
+  animation: rot-mer-1 3.88s infinite linear;
+  position: absolute;
+  z-index: 7;
+  right: 4%;
+  bottom: 27%;
+}
+.loyal-4 {
+  @include md(animation, none);
+  animation: rot-mer-2 9.88s infinite linear;
+  position: absolute;
+  left: 26%;
+  top: 25%;
+  z-index: 2;
+}
+.loyal-5 {
+  @include md(animation, none);
+  animation: rot-mer-2 3.88s infinite linear;
+  position: absolute;
+  top: 42%;
+  right: 7%;
+}
+.loyal-6 {
+  @include md(animation, none);
+  position: absolute;
+  transform: rotate(-310deg);
+  left: 13%;
+}
+.loyal-7 {
+  @include md(animation, none);
+  animation: rot-mer-1 3.88s infinite linear;
+  position: absolute;
+  top: 28%;
+  left: 7%;
+  z-index: 1;
+}
+.loyal-8 {
+  @include md(animation, none);
+  position: absolute;
+  right: 25%;
+  z-index: 0;
+  transform: rotate(-190deg);
+}
+.loyal-9 {
+  @include md(animation, none);
+  position: absolute;
+  transform: rotate(-295deg);
+  left: 20%;
+}
+.main__bonus-shopItemsItemImg {
+  position: relative;
+  height: 171rem;
+  padding-top: 20rem;
+  width: 100%;
+  max-width: 230rem;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}

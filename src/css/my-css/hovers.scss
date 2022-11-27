@@ -1,0 +1,30 @@
+.main__actionsTitleButton:hover {
+  background: #10c06b;
+}
+.main__actionsTitleButton {
+  transition: 0.4s ease-in-out;
+}
+
+.main__menuTopItem.active {
+  background: #178b53;
+  border-radius: 7rem;
+  animation-name: mymove;
+  animation-duration: 2s;
+}
+
+@keyframes mymove {
+  from {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  to {
+    background: #178b53;
+  }
+}
+
+.main__menuItemsItem button:hover {
+  background: rgba(255, 255, 255, 0.34);
+}
+
+.main__menuItemsItem button {
+  transition: 0.4s ease-in-out;
+}

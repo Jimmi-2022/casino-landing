@@ -1,0 +1,437 @@
+.main__condition.mt {
+  padding: 0;
+}
+
+.main__conditionBonusTitle {
+  margin: 0 20rem 15rem 20rem;
+}
+
+.main__conditionBonus {
+  margin-top: 40rem;
+}
+
+.main__conditionBonusTitleText {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21rem;
+  line-height: 30rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: 12rem;
+}
+
+.main__conditionBonusItems {
+  margin: 0 10rem;
+}
+
+.main__conditionBonusItemsItem {
+  width: calc(50% - 14rem);
+  margin-bottom: 28rem;
+  @include smm(width, 100%);
+}
+
+.main__conditionBonusItemsItem {
+  position: relative;
+  max-width: 100%;
+  height: 145px;
+  display: block;
+  border-radius: 7rem;
+}
+
+.main__conditionBonusItemsItem img.bonus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 100%;
+  height: 145px;
+  object-fit: cover;
+  border-radius: 7rem;
+  z-index: 9;
+}
+
+.main__conditionBonusItemsItemText {
+  background: transparent;
+  z-index: 11;
+  position: absolute;
+  padding: 10rem 20rem 12rem 20rem;
+  width: 100%;
+  height: 146px;
+  top: 0;
+  border-radius: 7rem;
+  transition: 0.5s ease-in-out;
+}
+
+.main__conditionBonusItemsItemTextTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21rem;
+  line-height: 30rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 5rem;
+}
+
+.main__conditionBonusItemsItemTextP {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 144%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  opacity: 0.7;
+  max-width: 211rem;
+  margin-bottom: 19rem;
+}
+
+.main__conditionBonusItemsItemTextButton button:first-child {
+  width: 80rem;
+  height: 25rem;
+  border-radius: 100rem;
+  border: 1px solid #ffffff;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  margin-right: 10rem;
+  background: transparent;
+  color: #ffffff;
+}
+.main__conditionBonusItemsItemTextButton button:nth-child(2) {
+  width: 106rem;
+  height: 25rem;
+  border-radius: 100rem;
+  border: 1px solid #ffffff;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  background: transparent;
+  color: #ffffff;
+}
+.main__conditionBonusItemsItemTextButton button:hover {
+  color: #595959;
+  background: #ffffff;
+}
+.main__conditionBonusItemsItemTextButton button {
+  transition: 0.4s ease-in-out;
+}
+
+.main__conditionBonusItemsItemTextButton {
+  padding-bottom: 10rem;
+}
+
+.main__conditionPromoTitleText {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21rem;
+  line-height: 30rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: 12rem;
+}
+
+.main__conditionPromo {
+  margin: 0 10rem;
+}
+
+.main__conditionPromoTitle {
+  margin: 0 10rem;
+}
+
+.main__conditionPromoInputButton button {
+  background: transparent;
+  border: none;
+}
+
+.main__conditionPromoInput {
+  border-top: 1px solid #6c6c6c;
+  border-bottom: 1px solid #6c6c6c;
+  margin-top: 17rem;
+  margin-bottom: 40rem;
+  padding: 14rem 10rem;
+}
+
+.main__conditionPromoInputText {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  opacity: 0.8;
+  @include xss(font-size, 13rem);
+}
+
+.main__conditionPromoInputIn input {
+  background: transparent;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.3);
+  outline: none;
+  &[type="text"] {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 20rem;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  &::-webkit-input-placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 20rem;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  &::-moz-placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 20rem;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.3);
+  } /* Firefox 19+ */
+
+  &:-moz-placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 20rem;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.3);
+  } /* Firefox 18- */
+
+  &:-ms-input-placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 20rem;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.main__conditionPromoInputIn input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.main__conditionPromoInputIn input:focus:-moz-placeholder {
+  color: transparent;
+} /* FF 4-18 */
+.main__conditionPromoInputIn input:focus::-moz-placeholder {
+  color: transparent;
+}
+.main__conditionPromoInputIn input:focus:-ms-input-placeholder {
+  color: transparent;
+} /* IE 10+ */
+
+.main__conditionPromoInputLeft {
+  @include xxs(flex-direction, column);
+}
+
+.main__conditionPromoInputText {
+  @include xxs(margin-top, 10rem);
+}
+
+.main__menuBackText {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #f46865;
+  margin-left: 17rem;
+}
+
+.main__menuBack {
+  margin-left: 20rem;
+  margin-top: 60rem;
+  margin-bottom: 278rem;
+  @include mk(margin-top, 20rem);
+  @include mk(margin-bottom, 40rem);
+}
+
+.main__conditionBonusItemsItemImg {
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.main__conditionBonusItemsItemImg.hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+}
+
+.main__conditionBonusItemsItemImg.hover {
+  position: relative;
+  max-width: 100%;
+  height: 148px;
+  display: block;
+  border-radius: 7rem;
+}
+
+.main__conditionBonusItemsItemImg.hover img.bonusBg {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 100%;
+  height: 147px;
+  object-fit: cover;
+  border-radius: 7rem;
+  z-index: 9;
+}
+
+.bonusImg-1 {
+  position: absolute;
+  right: 13%;
+  top: 0;
+  z-index: 14;
+  @include xsss(display, none);
+}
+.bonusImg-2 {
+  position: absolute;
+  right: 7%;
+  top: 43%;
+  z-index: 14;
+  @include xsss(display, none);
+}
+.bonusImg-3 {
+  position: absolute;
+  right: 32%;
+  top: 43%;
+  z-index: 14;
+  @include xsss(display, none);
+}
+.bonusImg-4 {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  z-index: 14;
+  @include xsss(display, none);
+}
+
+.main__conditionBonusItemsItem.active .main__actionsItemsItemPopup {
+  display: block;
+  z-index: 12;
+  position: absolute;
+}
+.main__conditionBonusItemsItem.active {
+  z-index: 13;
+  position: relative;
+}
+.main__conditionBonusItemsItem.active .main__conditionBonusItemsItemImg {
+  z-index: 14;
+  position: absolute;
+}
+
+.main__conditionBonusItemsItem.active .main__conditionBonusItemsItemText {
+  z-index: 15;
+  position: absolute;
+}
+
+.main__conditionBonusItemsItem.active img.bonus {
+  z-index: 14;
+}
+
+.bonusImg-5 {
+  position: absolute;
+  right: 2%;
+  top: -9%;
+  z-index: 14;
+  @include xsss(display, none);
+}
+.bonusImg-6 {
+  position: absolute;
+  right: 29%;
+  top: 46%;
+  z-index: 14;
+  transform: rotate(257deg);
+  @include xsss(display, none);
+}
+.bonusImg-7 {
+  position: absolute;
+  right: 1%;
+  top: 20%;
+  z-index: 14;
+  transform: rotate(-10deg);
+  @include xsss(display, none);
+}
+
+.bonusImg-8 {
+  position: absolute;
+  right: 17%;
+  top: 29%;
+  z-index: 14;
+  @include xsss(display, none);
+}
+
+.bonusImg-9 {
+  position: absolute;
+  right: 3%;
+  top: 0%;
+  z-index: 14;
+  @include xsss(display, none);
+}
+
+.bonusImg-10 {
+  position: absolute;
+  right: 0%;
+  bottom: 1%;
+  z-index: 14;
+  @include xsss(display, none);
+}
+
+.bonusImg-11 {
+  position: absolute;
+  right: 30%;
+  top: 36%;
+  z-index: 14;
+  transform: rotate(-90deg);
+  @include xsss(display, none);
+}
+
+.bonusImg-12 {
+  position: absolute;
+  right: 4%;
+  top: -4%;
+  z-index: 14;
+  transform: rotate(-10deg);
+  @include xsss(display, none);
+}
+.bonusImg-13 {
+  position: absolute;
+  right: 20%;
+  top: -4%;
+  z-index: 14;
+  // transform: rotate(-90deg);
+  @include xsss(display, none);
+}

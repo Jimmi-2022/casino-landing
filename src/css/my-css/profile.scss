@@ -1,0 +1,349 @@
+.main__confirmTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21rem;
+  line-height: 30rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 17rem;
+}
+
+.main__confirm {
+  background: linear-gradient(104.2deg, #8349f8 15.21%, #4010a0 85.04%);
+  border-radius: 7rem;
+  margin: 50rem 10rem 50rem 10rem;
+  padding: 33rem 40rem 40rem 40rem;
+  @include smm(padding, 20rem);
+}
+
+.main__profileLeft {
+  @include smm(padding, 20rem);
+}
+
+.main__confirmP {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  opacity: 0.7;
+  max-width: 513rem;
+  @include mk(max-width, 390rem);
+}
+.main__confirmP p:first-child {
+  margin-bottom: 30rem;
+}
+
+.main__confirmButton button {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #171926;
+  padding: 11rem 27rem;
+  transition: 0.4s ease-in-out;
+  margin-top: 38rem;
+  @include xxs(font-size, 14rem);
+}
+.main__confirmButton button:hover {
+  background: transparent;
+  color: #fff;
+}
+
+.main__profileLeft {
+  background: linear-gradient(104.2deg, #8349f8 15.21%, #4010a0 85.04%);
+  border-radius: 7rem;
+  width: calc(59.41% - 5rem);
+  padding: 25rem 52rem 37rem 33rem;
+  @include sz(width, calc(50% - 5rem));
+  @include smm(width, 100%);
+  @include smm(margin-bottom, 10rem);
+}
+
+.main__profileRight {
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 7rem;
+  width: calc(40.58% - 5rem);
+  padding: 14rem 25rem 20rem 20rem;
+  @include sz(width, calc(50% - 5rem));
+  @include smm(width, 100%);
+}
+
+.main__profile {
+  margin: 10rem;
+}
+
+.main__profileLeftTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 7rem;
+}
+
+.main__profileLeftP {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.main__profileRightTextTitle {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21rem;
+  line-height: 30rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.main__profileRightTextP {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 144%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  opacity: 0.4;
+  max-width: 164rem;
+}
+
+.main__profileRightTextButton {
+  margin-top: 17rem;
+}
+
+.main__profileRightTextButton button {
+  width: 82rem;
+  height: 25rem;
+  background: #ffffff;
+  border-radius: 100rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 118%;
+  letter-spacing: 0.02em;
+  color: #595959;
+  border: none;
+  transition: 0.4s ease-in-out;
+}
+.main__profileRightTextButton button:hover {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #fff;
+}
+
+.main__profileRightTextButton button:first-child {
+  margin-right: 10rem;
+}
+
+.main__conditionPromoInput.pass {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main__conditionPromoInput.pass {
+  border-top: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main__conditionPromoInput:first-child.pass {
+  margin-top: 15rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.main__password {
+  margin-top: 50rem;
+}
+
+.main__conditionPromoInput.white {
+  background: #ffffff;
+  border-radius: 5px;
+  z-index: -1;
+  position: relative;
+}
+
+.main__conditionPromoInput.white input {
+  background: transparent;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: rgba(23, 25, 38, 0.3);
+  outline: none;
+  &[type="text"] {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 20rem;
+    letter-spacing: 0.02em;
+    color: rgba(23, 25, 38, 0.3);
+    outline: none;
+  }
+  &::-webkit-input-placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 20rem;
+    letter-spacing: 0.02em;
+    color: rgba(23, 25, 38, 0.3);
+    outline: none;
+  }
+  &::-moz-placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 20rem;
+    letter-spacing: 0.02em;
+    color: rgba(23, 25, 38, 0.3);
+    outline: none;
+  } /* Firefox 19+ */
+
+  &:-moz-placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 20rem;
+    letter-spacing: 0.02em;
+    color: rgba(23, 25, 38, 0.3);
+    outline: none;
+  } /* Firefox 18- */
+
+  &:-ms-input-placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 20rem;
+    letter-spacing: 0.02em;
+    color: rgba(23, 25, 38, 0.3);
+    outline: none;
+  }
+}
+
+.main__conditionPromoInput.white input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.main__conditionPromoInput.white input:focus:-moz-placeholder {
+  color: transparent;
+} /* FF 4-18 */
+.main__conditionPromoInput.white input:focus::-moz-placeholder {
+  color: transparent;
+}
+.main__conditionPromoInput.white input:focus:-ms-input-placeholder {
+  color: transparent;
+} /* IE 10+ */
+
+.pass .main__conditionPromoInputButton {
+  z-index: 1;
+}
+
+.main__conditionPromoInput.white .main__conditionPromoInputText {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15rem;
+  line-height: 20rem;
+  letter-spacing: 0.02em;
+  color: #171926;
+  opacity: 0.8;
+}
+
+.main__conditionPromoInputButton {
+  background: transparent;
+  border: none;
+}
+
+.main__conditionPromoInput.white button img:first-child {
+  display: none;
+}
+.main__conditionPromoInput.white button img:nth-child(2) {
+  display: block;
+}
+.main__conditionPromoInput button img:first-child {
+  display: block;
+}
+.main__conditionPromoInput button img:nth-child(2) {
+  display: none;
+}
+
+.main__info {
+  margin-top: 50rem;
+}
+
+.main__actionsTitle {
+  margin-right: 10rem;
+  margin-left: 15rem;
+}
+
+.main__infoInputsRight,
+.main__infoInputsLeft {
+  width: calc(50% - 14rem);
+  @include szz(width, 100%);
+}
+
+.main__infoInputs {
+  margin: 0 10rem;
+}
+
+.main__infoInputsLeft .main__conditionPromoInput.pass:last-child {
+  @include szz(border-bottom, none);
+}
+
+.main__infoInputsRight .main__conditionPromoInput:first-child.pass {
+  @include szz(margin-top, 0);
+}
+
+.main__conditionPromoInputLeft,
+.main__conditionPromoInput {
+  flex-wrap: nowrap;
+}
+
+.main__conditionPromoInputButton button {
+  width: 32rem;
+  height: 32rem;
+}
+
+.main__conditionPromoInputIn,
+.main__conditionPromoInputText {
+  @include row-flex();
+  margin-left: 0;
+  margin-right: 0;
+  align-items: center;
+}
+
+// .main__conditionPromoInputIn input:-internal-autofill-selected {
+//   background: transparent !important;
+//   color: rgba(255, 255, 255, 0.3) !important;
+//   outline: none !important;
+// }
+
+// .main__conditionPromoInputIn input {
+//   color: rgba(255, 255, 255, 0.3) !important;
+//   background-color: transparent !important;
+// }
